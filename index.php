@@ -1,31 +1,21 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<?php
 
-<!-- Mirrored from htmlmystore.justthemevalley.com/genius/Version3/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Apr 2017 11:30:12 GMT -->
-<head>
-<!-- Basic page needs -->
-<meta charset="utf-8">
-<!--[if IE]>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <![endif]-->
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Genius premium HTML5 &amp; CSS3 template</title>
-<meta name="description" content="">
+    include('includes/head_html.php');
 
-<!-- Mobile specific metas  -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+?>
 
-<!-- Favicon  -->
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<?php
 
-<!-- Google Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+    include('includes/header.php');
 
-<!-- CSS Style -->
+?>
 
+<?php
 
-<link rel="stylesheet" href="style.css">
-</head>
+    include('includes/footer.php');
+
+?>
+
 
 <body class="cms-index-index cms-home-page">
 
@@ -36,141 +26,7 @@
 <div id="page"> 
   
   <!-- Header -->
-  <header>
-    <div class="header-container">
-      <div class="header-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-5 col-xs-6"> 
-              <!-- Default Welcome Message --> 
-              <span class="phone hidden-xs hidden-sm"><i class="fa fa-phone fa-lg"></i> +123.456.789</span>
-              <div class="welcome-msg hidden-xs">Welcome to Genius! </div>
-              <div class="language-currency-wrapper">
-                <div class="inner-cl">
-                  <div class="block block-language form-language">
-                    <div class="lg-cur"> <span> <img src="images/flag-default.jpg" alt="French"> <span class="lg-fr">French</span> <i class="fa fa-angle-down"></i> </span> </div>
-                    <ul>
-                      <li> <a class="selected" href="#"> <img src="images/flag-english.jpg" alt="flag"> <span>English</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-default.jpg" alt="flag"> <span>French</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-german.jpg" alt="flag"> <span>German</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-brazil.jpg" alt="flag"> <span>Brazil</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-chile.jpg" alt="flag"> <span>Chile</span> </a> </li>
-                      <li> <a href="#"> <img src="images/flag-spain.jpg" alt="flag"> <span>Spain</span> </a> </li>
-                    </ul>
-                  </div>
-                  <div class="block block-currency">
-                    <div class="item-cur"> <span>USD </span> <i class="fa fa-angle-down"></i></div>
-                    <ul>
-                      <li> <a href="#"><span class="cur_icon">€</span> EUR</a> </li>
-                      <li> <a href="#"><span class="cur_icon">¥</span> JPY</a> </li>
-                      <li> <a class="selected" href="#"><span class="cur_icon">$</span> USD</a> </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <!-- top links -->
-            <div class="headerlinkmenu col-lg-6 col-md-6 col-sm-7 col-xs-6 text-right">
-              <div class="links">
-                <div class="jtv-user-info">
-                  <div class="dropdown"> <a class="current-open" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span>My Account </span> <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="account_page.html">Account</a></li>
-                      <li><a href="wishlist.html">Wishlist</a></li>
-                      <li><a href="checkout.html">Checkout</a></li>
-                      <li class="divider"></li>
-                      <li><a href="account_page.html">Log In</a></li>
-                      <li><a href="account_page.html">Sign Up</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="services hidden-xs"><a title="servicesg" href="#">Services</a></div>
-                <div class="myaccount hidden-xs"><a title="My Account" href="#">My Support</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-md-3 col-xs-12"> 
-            <!-- Header Logo -->
-            <div class="logo"><a title="e-commerce" href="index-2.html"><img alt="e-commerce" src="images/logo.png"></a> </div>
-            <!-- End Header Logo --> 
-          </div>
-          <div class="col-xs-12 col-sm-5 col-md-5 col-lg-6"> 
-            <!-- Search -->
-            
-            <div class="top-search">
-              <div id="search">
-                <form>
-                  <div class="input-group">
-                    <select class="cate-dropdown hidden-xs hidden-sm" name="category_id">
-                      <option>All Categories</option>
-                      <option>women</option>
-                      <option>&nbsp;&nbsp;&nbsp;Accessories </option>
-                      <option>&nbsp;&nbsp;&nbsp;Dresses</option>
-                      <option>&nbsp;&nbsp;&nbsp;Top</option>
-                      <option>&nbsp;&nbsp;&nbsp;Handbags </option>
-                      <option>&nbsp;&nbsp;&nbsp;Shoes </option>
-                      <option>&nbsp;&nbsp;&nbsp;Clothing </option>
-                      <option>Men</option>
-                      <option>Electronics</option>
-                      <option>&nbsp;&nbsp;&nbsp;Mobiles </option>
-                      <option>&nbsp;&nbsp;&nbsp;Music &amp; Audio </option>
-                    </select>
-                    <input type="text" class="form-control" placeholder="Search" name="search">
-                    <button class="btn-search" type="button"><i class="fa fa-search"></i></button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            
-            <!-- End Search --> 
-          </div>
-          <div class="col-lg-3 col-sm-4 col-xs-12 top-cart">
-            <div class="link-wishlist"> <a href="#"> <span class="wishlist-count">3</span> <i class="fa fa-heart fa-lg"></i> </a> </div>
-            <div class="top-cart-contain">
-              <div class="mini-cart">
-                <div data-toggle="dropdown" data-hover="dropdown" class="basket dropdown-toggle"> <a href="#">
-                  <div class="cart-icon"><i class="fa fa-shopping-cart"></i></div>
-                  <div class="shoppingcart-inner"><span class="cart-title">Shopping Cart</span> <span class="cart-total">4 Item(s): $520.00</span></div>
-                  </a></div>
-                <div>
-                  <div class="top-cart-content">
-                    <div class="block-subtitle hidden-xs">Recently added item(s)</div>
-                    <ul id="cart-sidebar" class="mini-products-list">
-                      <li class="item odd"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img07.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Lorem ipsum dolor sit amet Consectetur</a> </p>
-                          <strong>1</strong> x <span class="price">$20.00</span> </div>
-                      </li>
-                      <li class="item even"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img08.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Consectetur utes anet adipisicing elit</a> </p>
-                          <strong>1</strong> x <span class="price">$230.00</span> </div>
-                      </li>
-                      <li class="item last odd"> <a href="#" title="Ipsums Dolors Untra" class="product-image"><img src="images/products/img10.jpg" alt="Lorem ipsum dolor" width="65"></a>
-                        <div class="product-details"> <a href="#" title="Remove This Item" class="remove-cart"><i class="icon-close"></i></a>
-                          <p class="product-name"><a href="#">Sed do eiusmod tempor incidist</a> </p>
-                          <strong>2</strong> x <span class="price">$420.00</span> </div>
-                      </li>
-                    </ul>
-                    <div class="top-subtotal">Subtotal: <span class="price">$520.00</span></div>
-                    <div class="actions">
-                      <button onclick="location.href='checkout.html'" class="btn-checkout" type="button"><i class="fa fa-check"></i><span>Checkout</span></button>
-                      <button onclick="location.href='shopping_cart.html'"  class="view-cart" type="button"><i class="fa fa-shopping-cart"></i> <span>View Cart</span></button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+  
   <!-- end header --> 
   
   <!-- Start Menu Area -->
@@ -1987,120 +1843,7 @@
   
   <!-- Footer -->
   
-  <footer>
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-3">
-            <div class="footer-logo"><a href="index-2.html"><img src="images/logo.png" alt="fotter logo"></a>
-              <p>Lorem Ipsum is simply dummy text of the printing.</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-3">
-            <h3 class="">Sign up for newsletter</h3>
-            <span>Get the latest deals and special offers</span></div>
-          <div class="col-md-5 col-sm-6">
-            <form id="newsletter-validate-detail" method="post" action="#">
-              <div class="newsletter-inner">
-                <input class="newsletter-email" name='Email' placeholder='Enter Your Email'/>
-                <button class="button subscribe" type="submit" title="Subscribe">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-md-3 col-xs-12 col-lg-3 collapsed-block">
-          <div class="footer-links">
-            <h3 class="links-title">Information<a class="expander visible-xs" href="#TabBlock-1">+</a></h3>
-            <div class="tabBlock" id="TabBlock-1">
-              <ul class="list-links list-unstyled">
-                <li><a href="#s">Delivery Information</a></li>
-                <li><a href="#">Discount</a></li>
-                <li><a href="sitemap.html">Sitemap</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="#">Terms &amp; Condition</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-xs-12 col-lg-3 collapsed-block">
-          <div class="footer-links">
-            <h3 class="links-title">Insider<a class="expander visible-xs" href="#TabBlock-3">+</a></h3>
-            <div class="tabBlock" id="TabBlock-3">
-              <ul class="list-links list-unstyled">
-                <li> <a href="sitemap.html"> Sites Map </a> </li>
-                <li> <a href="#">News</a> </li>
-                <li> <a href="#">Trends</a> </li>
-                <li> <a href="about_us.html">About Us</a> </li>
-                <li> <a href="contact_us.html">Contact Us</a> </li>
-                <li> <a href="#">My Orders</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-2 col-xs-12 col-lg-3 collapsed-block">
-          <div class="footer-links">
-            <h3 class="links-title">Service<a class="expander visible-xs" href="#TabBlock-4">+</a></h3>
-            <div class="tabBlock" id="TabBlock-4">
-              <ul class="list-links list-unstyled">
-                <li> <a href="account_page.html">Account</a> </li>
-                <li> <a href="wishlist.html">Wishlist</a> </li>
-                <li> <a href="shopping_cart.html">Shopping Cart</a> </li>
-                <li> <a href="#">Return Policy</a> </li>
-                <li> <a href="#">Special</a> </li>
-                <li> <a href="#">Lookbook</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xs-12 col-lg-3">
-          <h3 class="links-title">Contact us</h3>
-          <div class="footer-content">
-            <div class="email"> <i class="fa fa-envelope"></i>
-              <p>Support@themes.com</p>
-            </div>
-            <div class="phone"> <i class="fa fa-phone"></i>
-              <p>(800) 0123 456 789</p>
-            </div>
-            <div class="address"> <i class="fa fa-map-marker"></i>
-              <p> My Company, 12/34 - West 21st Street, New York, USA</p>
-            </div>
-          </div>
-          <div class="social">
-            <ul class="inline-mode">
-              <li class="social-network fb"><a title="Connect us on Facebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-              <li class="social-network googleplus"><a title="Connect us on Google+" target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
-              <li class="social-network tw"><a title="Connect us on Twitter" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-              <li class="social-network linkedin"><a title="Connect us on Linkedin" target="_blank" href="https://www.pinterest.com/"><i class="fa fa-linkedin"></i></a></li>
-              <li class="social-network rss"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-rss"></i></a></li>
-              <li class="social-network instagram"><a title="Connect us on Instagram" target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-coppyright">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-xs-12 coppyright"> Copyright © 2017 <a href="#"> Genius </a>. All Rights Reserved. </div>
-          <div class="col-sm-6 col-xs-12">
-            <div class="payment">
-              <ul>
-                <li><a href="#"><img title="Visa" alt="Visa" src="images/visa.png"></a></li>
-                <li><a href="#"><img title="Paypal" alt="Paypal" src="images/paypal.png"></a></li>
-                <li><a href="#"><img title="Discover" alt="Discover" src="images/discover.png"></a></li>
-                <li><a href="#"><img title="Master Card" alt="Master Card" src="images/master-card.png"></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  
   <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-up"></i></a> 
   <!-- End Footer --> 
   
